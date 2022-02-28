@@ -1,0 +1,26 @@
+{
+    "id": "61cf00305d053e74fe70ec79",
+    "name": "administrativeLeave",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT"
+        ],
+        "database": "test",
+        "collection": "admin_leaves",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": false,
+        "unordered": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "administrativeLeave"
+            }
+        }
+    }
+}
