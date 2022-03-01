@@ -400,17 +400,17 @@
         "run_as_system": true
     },
     {
-        "name": "getuser_add_branch",
+        "name": "getuser_add-branch",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_add_department",
+        "name": "getuser_add-department",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_add_section",
+        "name": "getuser_add-section",
         "private": false,
         "run_as_system": true
     },
@@ -533,17 +533,17 @@
         "run_as_system": true
     },
     {
-        "name": "hudur_get_branches",
+        "name": "hudur_get-branches",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "hudur_get_department",
+        "name": "hudur_get-department",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "hudur_get_section",
+        "name": "hudur_get-section",
         "private": false,
         "run_as_system": true
     },
