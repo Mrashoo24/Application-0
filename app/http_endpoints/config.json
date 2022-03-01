@@ -740,9 +740,9 @@
         "disabled": false
     },
     {
-        "route": "/getuser/add-branch",
+        "route": "/getuser/add_branch",
         "http_method": "POST",
-        "function_name": "getuser_add-branch",
+        "function_name": "getuser_add_branch",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -750,9 +750,9 @@
         "disabled": false
     },
     {
-        "route": "/getuser/add-department",
+        "route": "/getuser/add_department",
         "http_method": "POST",
-        "function_name": "getuser_add-department",
+        "function_name": "getuser_add_department",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -760,9 +760,9 @@
         "disabled": false
     },
     {
-        "route": "/getuser/add-section",
+        "route": "/getuser/add_section",
         "http_method": "POST",
-        "function_name": "getuser_add-section",
+        "function_name": "getuser_add_section",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1000,9 +1000,9 @@
         "disabled": false
     },
     {
-        "route": "/hudur/get-branches",
+        "route": "/hudur/get_branches",
         "http_method": "GET",
-        "function_name": "hudur_get-branches",
+        "function_name": "hudur_get_branches",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1010,9 +1010,9 @@
         "disabled": false
     },
     {
-        "route": "/hudur/get-department",
+        "route": "/hudur/get_department",
         "http_method": "GET",
-        "function_name": "hudur_get-department",
+        "function_name": "hudur_get_department",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1020,9 +1020,9 @@
         "disabled": false
     },
     {
-        "route": "/hudur/get-section",
+        "route": "/hudur/get_section",
         "http_method": "GET",
-        "function_name": "hudur_get-section",
+        "function_name": "hudur_get_section",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
