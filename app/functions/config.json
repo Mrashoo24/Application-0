@@ -1,121 +1,6 @@
 [
     {
-        "name": "getuser_postCheckInRequest",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getUserByRefId",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_addHrCourses",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetLeaves",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "administrativeLeave",
-        "private": true
-    },
-    {
-        "name": "hudur_deleteRelatedSite",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteBenchList",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getuser",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_approveLeaveRequest",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPostBenchlist",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPostAddAnnouncements",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_putDynamicCertificateName",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getLatLon",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getuser_postMany",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetOfficeLocation",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetEmployeeBenchList",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_postDynamicServices",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPostEnquiry",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "newAnnouncement",
-        "private": true
-    },
-    {
-        "name": "hudur_removeCourseEnrollment",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getuser_hrCoursesGet",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_add_branch",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteDL",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getLeaveCounts",
+        "name": "getuser_deleteAnnouncement",
         "private": false,
         "run_as_system": true,
         "disable_arg_logs": true
@@ -126,17 +11,22 @@
         "run_as_system": true
     },
     {
-        "name": "hudur_updateemployee",
+        "name": "hudur_getManagers",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugPostAddHrCourses",
+        "name": "getuser_postCheckInRequest",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugPostEmployee",
+        "name": "getuser_rejectAdminLeave",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_addSites",
         "private": false,
         "run_as_system": true
     },
@@ -146,256 +36,7 @@
         "run_as_system": true
     },
     {
-        "name": "getuser_benchGet",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getDynamicServices",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteAnnouncement",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetServicesManager",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugRegisterCourse",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_postAttendanceReport",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_deleteAnnouncement",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getuser_debugGetOneManager",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetReports",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "enquiry",
-        "private": true
-    },
-    {
-        "name": "hudur_rejectDynamicService",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getEmployeeLeaveRequests",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPostLeaveRequest",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_sendMacRequest",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getuser_debugGetServicesEmployee",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPutCertificateName",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getServiceReport",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_postCheckin",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getDynamicServicesHR",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_putAttachment",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetCheckings",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getEnquiriesHR",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetAdminLeaves",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetPresentCourses",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteEmployee",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getoneuser",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getAdminLeave",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_approveAdminLeave",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_companyAllGet",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugRejectAdminLeave",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteSection",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getAllEnquiries",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_get_section",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugIncrementAdminLeave",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_loginCompany",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetRelatedSites",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getusers",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteDepartment",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetAnnouncements",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getManagers",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getOutGeoReport",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "services",
-        "private": true
-    },
-    {
-        "name": "getuser_getDailyReports",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getcheckings",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getUserByName",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteBranch",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteCourse",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "benchListRequest",
-        "private": true
-    },
-    {
-        "name": "getuser_debugApproveService",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getCourseDetail",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_updateDynaLeave",
+        "name": "getuser_addNotification",
         "private": false,
         "run_as_system": true
     },
@@ -405,82 +46,7 @@
         "run_as_system": true
     },
     {
-        "name": "hudur_deleteEmployeeRequest",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetUsers",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPostCheckInRequest",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getSites",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_putTokenEmployee",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_deleteCourses",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getuser_debugApproveAdminLeave",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getDynamicServiceRequest",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_postmanager",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "debugSendEnquiryEmail",
-        "private": true
-    },
-    {
-        "name": "getuser_debugGetCheckInRequests",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_updateCheckinPermission",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_postDynamicService",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getHR",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_postLeaveDynaRequest",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPostLateCheckInReason",
+        "name": "getuser_debugPresentHrCourses",
         "private": false,
         "run_as_system": true
     },
@@ -490,22 +56,32 @@
         "run_as_system": true
     },
     {
-        "name": "getuser_debugGetCheckIn",
+        "name": "getuser_debugPostLeaves",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugPostManager",
+        "name": "hudur_get_branches",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugPostAdminLeave",
+        "name": "getuser_debugGetAdminLeaves",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugAcceptRequest",
+        "name": "getuser_add_branch",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getEnquiries",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugCheckIfRegisteredCourse",
         "private": false,
         "run_as_system": true
     },
@@ -515,48 +91,140 @@
         "run_as_system": true
     },
     {
-        "name": "getuser_add_department",
+        "name": "getuser_getuser",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugRejectBenchList",
+        "name": "getuser_getCourseDetail",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugGetAdminLeaveManager",
+        "name": "getuser_getcheckings",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugPostLeaves",
+        "name": "getuser_debugGetEmployeeLeaveRequests",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "hudur_getDynaSer",
+        "name": "hudur_deleteEmployeeRequest",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugApproveBenchList",
+        "name": "getuser_updateLocation",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugGetBenchListManager",
+        "name": "getuser_debugGetCheckings",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "hudur_getCompanyDetails",
+        "name": "newAnnouncement",
+        "private": true
+    },
+    {
+        "name": "getuser_debugPostOuterGeoList",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_deleteServicesDyna",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "services",
+        "private": true
+    },
+    {
+        "name": "getuser_debugGetServicesEmployee",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "leaveRequests",
+        "private": true
+    },
+    {
+        "name": "getuser_debugGetLeaveRequests",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_loginCompany",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostAttendanceReport",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_get_section",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getusers",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_getCountofLeaves",
         "private": false,
         "run_as_system": true,
         "disable_arg_logs": true
     },
     {
-        "name": "getuser_debugGetCheckInHistory",
+        "name": "getuser_getSites",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostBenchlist",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_editAnnouncement",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getonemanager",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostLateCheckInReason",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_updateemployee",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getleaves",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_deleteBranch",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostManager",
         "private": false,
         "run_as_system": true
     },
@@ -572,22 +240,18 @@
         "disable_arg_logs": true
     },
     {
-        "name": "getuser_addSites",
+        "name": "getuser_debugGetCheckIn",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_notiGet",
+        "name": "hudur_getCompanyDetails",
         "private": false,
-        "run_as_system": true
+        "run_as_system": true,
+        "disable_arg_logs": true
     },
     {
-        "name": "getuser_addNotification",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_deleteServicesDyna",
+        "name": "getuser_debugGetAnnouncements",
         "private": false,
         "run_as_system": true
     },
@@ -597,7 +261,277 @@
         "run_as_system": true
     },
     {
-        "name": "getuser_getEnquiries",
+        "name": "getuser_debugRejectAdminLeave",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getDailyReports",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugRejectBenchList",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_deleteAdminLeaves",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_postAttendanceReport",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_deleteRelatedSite",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_postCheckin",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "debugSendEnquiryEmail",
+        "private": true
+    },
+    {
+        "name": "hudur_deleteEmployee",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostAddAnnouncements",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetUser",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "benchListRequest",
+        "private": true
+    },
+    {
+        "name": "administrativeLeave",
+        "private": true
+    },
+    {
+        "name": "getuser_getLatLon",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getuser_debugGetLeaves",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostEnquiry",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugApproveBenchList",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_companyadd",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetOneManager",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_deleteCourses",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "hudur_deleteCourse",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_postDynamicServices",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_postmanager",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_getDynamicServicesHR",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetCheckInRequests",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_rejectLeaveRequest",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_getDynamicServiceRequest",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetPresentCourses",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_csvpost",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_putDynamicCertificateName",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "enquiry",
+        "private": true
+    },
+    {
+        "name": "hudur_getDynamicServiceRequestEmployee",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_postMany",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_removeCourseEnrollment",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getuser_debugGetEmployeeBenchList",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPutCertificateName",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetOfficeLocation",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetBenchListRequests",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getcheckin",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_sendMacRequest",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getuser_debugGetBenchListManager",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostCheckInRequest",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getCourses",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetCheckInHistory",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getServiceReport",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "postkm",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetServicesManager",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_updateDynaLeave",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostAdminLeave",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_putTokenEmployee",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getUserByRefId",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_approveLeaveRequest",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_add_department",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_getDynamicServices",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_rejectDynamicService",
         "private": false,
         "run_as_system": true
     },
@@ -608,82 +542,18 @@
         "disable_arg_logs": true
     },
     {
-        "name": "leaveRequests",
-        "private": true
-    },
-    {
-        "name": "getuser_getcheckin",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_rejectLeaveRequest",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_postemployee",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetLeaveRequests",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getleaves",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_companyadd",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_rejectAdminLeave",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getonemanager",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getCountofLeaves",
+        "name": "getuser_getDelayReports",
         "private": false,
         "run_as_system": true,
         "disable_arg_logs": true
     },
     {
-        "name": "getuser_add_section",
+        "name": "hudur_deleteBenchList",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugGetUser",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_approveDynamicService",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetEmployeeLeaveRequests",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_editAnnouncement",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_getDynamicServiceRequestEmployee",
+        "name": "getuser_debugApproveAdminLeave",
         "private": false,
         "run_as_system": true
     },
@@ -693,78 +563,63 @@
         "run_as_system": true
     },
     {
-        "name": "getuser_updateLocation",
+        "name": "hudur_putAttachment",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugPresentHrCourses",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPostAttendanceReport",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_postleaves",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugPostServices",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugGetBenchListRequests",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "hudur_get_branches",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_debugCheckIfRegisteredCourse",
-        "private": false,
-        "run_as_system": true
-    },
-    {
-        "name": "getuser_getDelayReports",
+        "name": "hudur_getLeaveCounts",
         "private": false,
         "run_as_system": true,
         "disable_arg_logs": true
     },
     {
-        "name": "getuser_getCourses",
+        "name": "hudur_deleteDepartment",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugPostCheckIn",
+        "name": "hudur_getHR",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_debugPostOuterGeoList",
+        "name": "getuser_getOutGeoReport",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_checingAcReq",
+        "name": "hudur_getDynaSer",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "hudur_csvpost",
+        "name": "hudur_postLeaveDynaRequest",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getuser_postOuterGeoList",
+        "name": "getuser_debugPostEmployee",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_deleteAnnouncement",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_approveAdminLeave",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_getEmployeeLeaveRequests",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetReports",
         "private": false,
         "run_as_system": true
     },
@@ -774,12 +629,157 @@
         "run_as_system": true
     },
     {
-        "name": "hudur_deleteAdminLeaves",
+        "name": "getuser_debugGetUsers",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "postkm",
+        "name": "hudur_getAllEnquiries",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugApproveService",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_addHrCourses",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_notiGet",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_approveDynamicService",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_deleteSection",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugAcceptRequest",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_postDynamicService",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_benchGet",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_getoneuser",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_updateCheckinPermission",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_checingAcReq",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_add_section",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_postemployee",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_companyAllGet",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugRegisterCourse",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_postleaves",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_getEnquiriesHR",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostServices",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugIncrementAdminLeave",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_hrCoursesGet",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetRelatedSites",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_deleteDL",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostAddHrCourses",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostLeaveRequest",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_getAdminLeave",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hudur_getUserByName",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugPostCheckIn",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_postOuterGeoList",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getuser_debugGetAdminLeaveManager",
         "private": false,
         "run_as_system": true
     }

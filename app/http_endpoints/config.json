@@ -1,58 +1,8 @@
 [
     {
-        "route": "/getuser/debugApproveService",
-        "http_method": "PUT",
-        "function_name": "getuser_debugApproveService",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/get_section",
-        "http_method": "GET",
-        "function_name": "hudur_get_section",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteCourse",
-        "http_method": "GET",
-        "function_name": "hudur_deleteCourse",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugAcceptRequest",
-        "http_method": "GET",
-        "function_name": "getuser_debugAcceptRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetEmployeeBenchList",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetEmployeeBenchList",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/companyAllGet",
-        "http_method": "GET",
-        "function_name": "getuser_companyAllGet",
+        "route": "/getuser/postMany",
+        "http_method": "POST",
+        "function_name": "getuser_postMany",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -70,9 +20,9 @@
         "disabled": false
     },
     {
-        "route": "/hudur/getLeaveCounts",
+        "route": "/getuser/debugGetLeaveRequests",
         "http_method": "GET",
-        "function_name": "hudur_getLeaveCounts",
+        "function_name": "getuser_debugGetLeaveRequests",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -80,109 +30,9 @@
         "disabled": false
     },
     {
-        "route": "/getuser/debugPostServices",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostServices",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/deleteCourses",
-        "http_method": "GET",
-        "function_name": "getuser_deleteCourses",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetServicesEmployee",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetServicesEmployee",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getEnquiries",
-        "http_method": "GET",
-        "function_name": "getuser_getEnquiries",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/addHrCourses",
-        "http_method": "POST",
-        "function_name": "getuser_addHrCourses",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostAddAnnouncements",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostAddAnnouncements",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetCheckIn",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetCheckIn",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/rejectLeaveRequest",
+        "route": "/getuser/debugIncrementAdminLeave",
         "http_method": "PUT",
-        "function_name": "hudur_rejectLeaveRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getDynaSer",
-        "http_method": "GET",
-        "function_name": "hudur_getDynaSer",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/get_branches",
-        "http_method": "GET",
-        "function_name": "hudur_get_branches",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteAnnouncement",
-        "http_method": "DELETE",
-        "function_name": "hudur_deleteAnnouncement",
+        "function_name": "getuser_debugIncrementAdminLeave",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -200,639 +50,9 @@
         "disabled": false
     },
     {
-        "route": "/getuser/debugPostManager",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostManager",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/hrCoursesGet",
-        "http_method": "GET",
-        "function_name": "getuser_hrCoursesGet",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getServiceReport",
-        "http_method": "GET",
-        "function_name": "getuser_getServiceReport",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostCheckInRequest",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostCheckInRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetBenchListManager",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetBenchListManager",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetCheckInHistory",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetCheckInHistory",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugRejectAdminLeave",
-        "http_method": "PUT",
-        "function_name": "getuser_debugRejectAdminLeave",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/checingAcReq",
-        "http_method": "GET",
-        "function_name": "getuser_checingAcReq",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetCoursesHr",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetCoursesHr",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/putTokenEmployee",
-        "http_method": "PUT",
-        "function_name": "getuser_putTokenEmployee",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteServicesDyna",
-        "http_method": "GET",
-        "function_name": "hudur_deleteServicesDyna",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getAllEnquiries",
-        "http_method": "GET",
-        "function_name": "hudur_getAllEnquiries",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetUsers",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetUsers",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugApproveBenchList",
-        "http_method": "PUT",
-        "function_name": "getuser_debugApproveBenchList",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugSendHrEnquiry",
-        "http_method": "POST",
-        "function_name": "getuser_debugSendHrEnquiry",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostLeaves",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostLeaves",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/postCheckInRequest",
-        "http_method": "POST",
-        "function_name": "getuser_postCheckInRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetAdminLeaves",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetAdminLeaves",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/deleteAnnouncement",
-        "http_method": "GET",
-        "function_name": "getuser_deleteAnnouncement",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteBenchList",
-        "http_method": "DELETE",
-        "function_name": "hudur_deleteBenchList",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/removeCourseEnrollment",
-        "http_method": "GET",
-        "function_name": "hudur_removeCourseEnrollment",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/editAnnouncement",
-        "http_method": "PUT",
-        "function_name": "hudur_editAnnouncement",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getCompanyDetails",
-        "http_method": "GET",
-        "function_name": "hudur_getCompanyDetails",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getcheckin",
-        "http_method": "GET",
-        "function_name": "getuser_getcheckin",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getLatLon",
-        "http_method": "GET",
-        "function_name": "getuser_getLatLon",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetRelatedSites",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetRelatedSites",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getDynamicServicesHR",
-        "http_method": "GET",
-        "function_name": "hudur_getDynamicServicesHR",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteAdminLeaves",
-        "http_method": "DELETE",
-        "function_name": "hudur_deleteAdminLeaves",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getDynamicServiceRequestEmployee",
-        "http_method": "GET",
-        "function_name": "hudur_getDynamicServiceRequestEmployee",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/postmanager",
-        "http_method": "POST",
-        "function_name": "getuser_postmanager",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetOneManager",
-        "http_method": "POST",
-        "function_name": "getuser_debugGetOneManager",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
         "route": "/getuser/debugPostOuterGeoList",
         "http_method": "POST",
         "function_name": "getuser_debugPostOuterGeoList",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/rejectAdminLeave",
-        "http_method": "GET",
-        "function_name": "getuser_rejectAdminLeave",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getDelayReports",
-        "http_method": "GET",
-        "function_name": "getuser_getDelayReports",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getEnquiriesHR",
-        "http_method": "GET",
-        "function_name": "hudur_getEnquiriesHR",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/postleaves",
-        "http_method": "POST",
-        "function_name": "getuser_postleaves",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/updateCheckinPermission",
-        "http_method": "GET",
-        "function_name": "getuser_updateCheckinPermission",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetLeaveRequests",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetLeaveRequests",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetPresentCourses",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetPresentCourses",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getAttendenceCounts",
-        "http_method": "GET",
-        "function_name": "hudur_getAttendenceCounts",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getDynamicServices",
-        "http_method": "GET",
-        "function_name": "hudur_getDynamicServices",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/add_section",
-        "http_method": "POST",
-        "function_name": "getuser_add_section",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getManagers",
-        "http_method": "GET",
-        "function_name": "hudur_getManagers",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteEmployeeRequest",
-        "http_method": "DELETE",
-        "function_name": "hudur_deleteEmployeeRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetCourses",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetCourses",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetAnnouncements",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetAnnouncements",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetServicesManager",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetServicesManager",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostEnquiry",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostEnquiry",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/csvpost",
-        "http_method": "POST",
-        "function_name": "hudur_csvpost",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getonemanager",
-        "http_method": "POST",
-        "function_name": "getuser_getonemanager",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getleaves",
-        "http_method": "GET",
-        "function_name": "getuser_getleaves",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/companyLocationUpdate",
-        "http_method": "GET",
-        "function_name": "getuser_companyLocationUpdate",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/sendMacRequest",
-        "http_method": "POST",
-        "function_name": "hudur_sendMacRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugRejectBenchList",
-        "http_method": "PUT",
-        "function_name": "getuser_debugRejectBenchList",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetReports",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetReports",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getDailyReports",
-        "http_method": "GET",
-        "function_name": "getuser_getDailyReports",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/get_department",
-        "http_method": "GET",
-        "function_name": "hudur_get_department",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getuser",
-        "http_method": "GET",
-        "function_name": "getuser_getuser",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/notiGet",
-        "http_method": "GET",
-        "function_name": "getuser_notiGet",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getAdminLeaveReport",
-        "http_method": "GET",
-        "function_name": "getuser_getAdminLeaveReport",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostBenchlist",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostBenchlist",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/add_department",
-        "http_method": "POST",
-        "function_name": "getuser_add_department",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugCheckIfRegisteredCourse",
-        "http_method": "GET",
-        "function_name": "getuser_debugCheckIfRegisteredCourse",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getOfficeLocation",
-        "http_method": "GET",
-        "function_name": "getuser_getOfficeLocation",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -850,109 +70,9 @@
         "disabled": false
     },
     {
-        "route": "/hudur/deleteService",
-        "http_method": "DELETE",
-        "function_name": "hudur_deleteService",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/addNotification",
-        "http_method": "POST",
-        "function_name": "getuser_addNotification",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getOutGeoReport",
+        "route": "/getuser/getDailyReports",
         "http_method": "GET",
-        "function_name": "getuser_getOutGeoReport",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/approveDynamicService",
-        "http_method": "PUT",
-        "function_name": "hudur_approveDynamicService",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/putAttachment",
-        "http_method": "PUT",
-        "function_name": "hudur_putAttachment",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteDepartment",
-        "http_method": "GET",
-        "function_name": "hudur_deleteDepartment",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getCountofLeaves",
-        "http_method": "GET",
-        "function_name": "hudur_getCountofLeaves",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/updateDynaLeave",
-        "http_method": "POST",
-        "function_name": "hudur_updateDynaLeave",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostEmployee",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostEmployee",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugApproveAdminLeave",
-        "http_method": "POST",
-        "function_name": "getuser_debugApproveAdminLeave",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPutCertificateName",
-        "http_method": "PUT",
-        "function_name": "getuser_debugPutCertificateName",
+        "function_name": "getuser_getDailyReports",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -970,49 +90,9 @@
         "disabled": false
     },
     {
-        "route": "/hudur/getEmployeeLeaveRequests",
-        "http_method": "GET",
-        "function_name": "hudur_getEmployeeLeaveRequests",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetCheckings",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetCheckings",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
         "route": "/getuser/debugGetCheckInRequests",
         "http_method": "GET",
         "function_name": "getuser_debugGetCheckInRequests",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/loginCompany",
-        "http_method": "GET",
-        "function_name": "getuser_loginCompany",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/approveAdminLeave",
-        "http_method": "GET",
-        "function_name": "getuser_approveAdminLeave",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1030,16 +110,6 @@
         "disabled": false
     },
     {
-        "route": "/getuser/debugRegisterCourse",
-        "http_method": "POST",
-        "function_name": "getuser_debugRegisterCourse",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
         "route": "/hudur/updateemployee",
         "http_method": "POST",
         "function_name": "hudur_updateemployee",
@@ -1050,9 +120,9 @@
         "disabled": false
     },
     {
-        "route": "/hudur/deleteSection",
+        "route": "/hudur/removeCourseEnrollment",
         "http_method": "GET",
-        "function_name": "hudur_deleteSection",
+        "function_name": "hudur_removeCourseEnrollment",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1060,9 +130,9 @@
         "disabled": false
     },
     {
-        "route": "/getuser/debugGetUser",
+        "route": "/getuser/getLatLon",
         "http_method": "GET",
-        "function_name": "getuser_debugGetUser",
+        "function_name": "getuser_getLatLon",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1070,9 +140,49 @@
         "disabled": false
     },
     {
-        "route": "/getuser/getCourses",
+        "route": "/hudur/getDynamicServiceRequestEmployee",
         "http_method": "GET",
-        "function_name": "getuser_getCourses",
+        "function_name": "hudur_getDynamicServiceRequestEmployee",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/benchListApprove",
+        "http_method": "GET",
+        "function_name": "getuser_benchListApprove",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetBenchListRequests",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetBenchListRequests",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getoneuser",
+        "http_method": "GET",
+        "function_name": "hudur_getoneuser",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugRegisterCourse",
+        "http_method": "POST",
+        "function_name": "getuser_debugRegisterCourse",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1100,359 +210,9 @@
         "disabled": false
     },
     {
-        "route": "/hudur/deleteRelatedSite",
-        "http_method": "DELETE",
-        "function_name": "hudur_deleteRelatedSite",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/postDynamicServices",
-        "http_method": "POST",
-        "function_name": "hudur_postDynamicServices",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
         "route": "/getuser/debugGetAdminLeaveManager",
         "http_method": "GET",
         "function_name": "getuser_debugGetAdminLeaveManager",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getAdminLeave",
-        "http_method": "GET",
-        "function_name": "getuser_getAdminLeave",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostAttendanceReport",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostAttendanceReport",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/updateLocation",
-        "http_method": "GET",
-        "function_name": "getuser_updateLocation",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/benchListApprove",
-        "http_method": "GET",
-        "function_name": "getuser_benchListApprove",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPresentHrCourses",
-        "http_method": "PUT",
-        "function_name": "getuser_debugPresentHrCourses",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostLateCheckInReason",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostLateCheckInReason",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getHR",
-        "http_method": "GET",
-        "function_name": "hudur_getHR",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/postemployee",
-        "http_method": "POST",
-        "function_name": "getuser_postemployee",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetLeaves",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetLeaves",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetOfficeLocation",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetOfficeLocation",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getoneuser",
-        "http_method": "GET",
-        "function_name": "hudur_getoneuser",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteEmployee",
-        "http_method": "GET",
-        "function_name": "hudur_deleteEmployee",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/deleteDL",
-        "http_method": "GET",
-        "function_name": "hudur_deleteDL",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/addSites",
-        "http_method": "POST",
-        "function_name": "getuser_addSites",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugGetBenchListRequests",
-        "http_method": "GET",
-        "function_name": "getuser_debugGetBenchListRequests",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getCourseDetail",
-        "http_method": "GET",
-        "function_name": "getuser_getCourseDetail",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugIncrementAdminLeave",
-        "http_method": "PUT",
-        "function_name": "getuser_debugIncrementAdminLeave",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getUserByName",
-        "http_method": "GET",
-        "function_name": "hudur_getUserByName",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getusers",
-        "http_method": "GET",
-        "function_name": "getuser_getusers",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getcheckings",
-        "http_method": "GET",
-        "function_name": "getuser_getcheckings",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/companyadd",
-        "http_method": "POST",
-        "function_name": "getuser_companyadd",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/postLeaveDynaRequest",
-        "http_method": "POST",
-        "function_name": "hudur_postLeaveDynaRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/getDynamicServiceRequest",
-        "http_method": "GET",
-        "function_name": "hudur_getDynamicServiceRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/putDynamicCertificateName",
-        "http_method": "PUT",
-        "function_name": "hudur_putDynamicCertificateName",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/getSites",
-        "http_method": "GET",
-        "function_name": "getuser_getSites",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/benchGet",
-        "http_method": "GET",
-        "function_name": "getuser_benchGet",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/approveLeaveRequest",
-        "http_method": "PUT",
-        "function_name": "hudur_approveLeaveRequest",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/postCheckin",
-        "http_method": "POST",
-        "function_name": "getuser_postCheckin",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/hudur/rejectDynamicService",
-        "http_method": "PUT",
-        "function_name": "hudur_rejectDynamicService",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugPostAdminLeave",
-        "http_method": "POST",
-        "function_name": "getuser_debugPostAdminLeave",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/postOuterGeoList",
-        "http_method": "POST",
-        "function_name": "getuser_postOuterGeoList",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/postMany",
-        "http_method": "POST",
-        "function_name": "getuser_postMany",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/getuser/debugRejectService",
-        "http_method": "PUT",
-        "function_name": "getuser_debugRejectService",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1470,9 +230,89 @@
         "disabled": false
     },
     {
-        "route": "/getuser/getUserByRefId",
+        "route": "/getuser/debugSendHrEnquiry",
+        "http_method": "POST",
+        "function_name": "getuser_debugSendHrEnquiry",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/postCheckInRequest",
+        "http_method": "POST",
+        "function_name": "getuser_postCheckInRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getcheckin",
         "http_method": "GET",
-        "function_name": "getuser_getUserByRefId",
+        "function_name": "getuser_getcheckin",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteDL",
+        "http_method": "GET",
+        "function_name": "hudur_deleteDL",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getCourseDetail",
+        "http_method": "GET",
+        "function_name": "getuser_getCourseDetail",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteAnnouncement",
+        "http_method": "DELETE",
+        "function_name": "hudur_deleteAnnouncement",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetRelatedSites",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetRelatedSites",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetPresentCourses",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetPresentCourses",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugRejectAdminLeave",
+        "http_method": "PUT",
+        "function_name": "getuser_debugRejectAdminLeave",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
@@ -1483,6 +323,1166 @@
         "route": "/postkm",
         "http_method": "POST",
         "function_name": "postkm",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/add_department",
+        "http_method": "POST",
+        "function_name": "getuser_add_department",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getDynamicServiceRequest",
+        "http_method": "GET",
+        "function_name": "hudur_getDynamicServiceRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/addHrCourses",
+        "http_method": "POST",
+        "function_name": "getuser_addHrCourses",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugApproveBenchList",
+        "http_method": "PUT",
+        "function_name": "getuser_debugApproveBenchList",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getEnquiriesHR",
+        "http_method": "GET",
+        "function_name": "hudur_getEnquiriesHR",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getOutGeoReport",
+        "http_method": "GET",
+        "function_name": "getuser_getOutGeoReport",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteDepartment",
+        "http_method": "GET",
+        "function_name": "hudur_deleteDepartment",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetCheckings",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetCheckings",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetOfficeLocation",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetOfficeLocation",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetEmployeeBenchList",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetEmployeeBenchList",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetCoursesHr",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetCoursesHr",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugCheckIfRegisteredCourse",
+        "http_method": "GET",
+        "function_name": "getuser_debugCheckIfRegisteredCourse",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/hrCoursesGet",
+        "http_method": "GET",
+        "function_name": "getuser_hrCoursesGet",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPutCertificateName",
+        "http_method": "PUT",
+        "function_name": "getuser_debugPutCertificateName",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getusers",
+        "http_method": "GET",
+        "function_name": "getuser_getusers",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/checingAcReq",
+        "http_method": "GET",
+        "function_name": "getuser_checingAcReq",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/editAnnouncement",
+        "http_method": "PUT",
+        "function_name": "hudur_editAnnouncement",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostAdminLeave",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostAdminLeave",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getCourses",
+        "http_method": "GET",
+        "function_name": "getuser_getCourses",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/rejectAdminLeave",
+        "http_method": "GET",
+        "function_name": "getuser_rejectAdminLeave",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/updateCheckinPermission",
+        "http_method": "GET",
+        "function_name": "getuser_updateCheckinPermission",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostEnquiry",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostEnquiry",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetServicesManager",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetServicesManager",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/sendMacRequest",
+        "http_method": "POST",
+        "function_name": "hudur_sendMacRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteRelatedSite",
+        "http_method": "DELETE",
+        "function_name": "hudur_deleteRelatedSite",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/postLeaveDynaRequest",
+        "http_method": "POST",
+        "function_name": "hudur_postLeaveDynaRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostServices",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostServices",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostCheckInRequest",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostCheckInRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getAllEnquiries",
+        "http_method": "GET",
+        "function_name": "hudur_getAllEnquiries",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getAttendenceCounts",
+        "http_method": "GET",
+        "function_name": "hudur_getAttendenceCounts",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/updateDynaLeave",
+        "http_method": "POST",
+        "function_name": "hudur_updateDynaLeave",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getcheckings",
+        "http_method": "GET",
+        "function_name": "getuser_getcheckings",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/postCheckin",
+        "http_method": "POST",
+        "function_name": "getuser_postCheckin",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getUserByRefId",
+        "http_method": "GET",
+        "function_name": "getuser_getUserByRefId",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getEnquiries",
+        "http_method": "GET",
+        "function_name": "getuser_getEnquiries",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/putTokenEmployee",
+        "http_method": "PUT",
+        "function_name": "getuser_putTokenEmployee",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetUsers",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetUsers",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostLateCheckInReason",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostLateCheckInReason",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/add_section",
+        "http_method": "POST",
+        "function_name": "getuser_add_section",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getleaves",
+        "http_method": "GET",
+        "function_name": "getuser_getleaves",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugApproveAdminLeave",
+        "http_method": "POST",
+        "function_name": "getuser_debugApproveAdminLeave",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/companyadd",
+        "http_method": "POST",
+        "function_name": "getuser_companyadd",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/benchGet",
+        "http_method": "GET",
+        "function_name": "getuser_benchGet",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostLeaves",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostLeaves",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/postleaves",
+        "http_method": "POST",
+        "function_name": "getuser_postleaves",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteEmployeeRequest",
+        "http_method": "DELETE",
+        "function_name": "hudur_deleteEmployeeRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getAdminLeaveReport",
+        "http_method": "GET",
+        "function_name": "getuser_getAdminLeaveReport",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/addNotification",
+        "http_method": "POST",
+        "function_name": "getuser_addNotification",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/approveDynamicService",
+        "http_method": "PUT",
+        "function_name": "hudur_approveDynamicService",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugRejectService",
+        "http_method": "PUT",
+        "function_name": "getuser_debugRejectService",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/companyAllGet",
+        "http_method": "GET",
+        "function_name": "getuser_companyAllGet",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getDynamicServicesHR",
+        "http_method": "GET",
+        "function_name": "hudur_getDynamicServicesHR",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getuser",
+        "http_method": "GET",
+        "function_name": "getuser_getuser",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugRejectBenchList",
+        "http_method": "PUT",
+        "function_name": "getuser_debugRejectBenchList",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetUser",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetUser",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteEmployee",
+        "http_method": "GET",
+        "function_name": "hudur_deleteEmployee",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostBenchlist",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostBenchlist",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getSites",
+        "http_method": "GET",
+        "function_name": "getuser_getSites",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/rejectDynamicService",
+        "http_method": "PUT",
+        "function_name": "hudur_rejectDynamicService",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/get_section",
+        "http_method": "GET",
+        "function_name": "hudur_get_section",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/deleteCourses",
+        "http_method": "GET",
+        "function_name": "getuser_deleteCourses",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/rejectLeaveRequest",
+        "http_method": "PUT",
+        "function_name": "hudur_rejectLeaveRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getDynamicServices",
+        "http_method": "GET",
+        "function_name": "hudur_getDynamicServices",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetReports",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetReports",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/loginCompany",
+        "http_method": "GET",
+        "function_name": "getuser_loginCompany",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostEmployee",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostEmployee",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetLeaves",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetLeaves",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/putDynamicCertificateName",
+        "http_method": "PUT",
+        "function_name": "hudur_putDynamicCertificateName",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteBenchList",
+        "http_method": "DELETE",
+        "function_name": "hudur_deleteBenchList",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/companyLocationUpdate",
+        "http_method": "GET",
+        "function_name": "getuser_companyLocationUpdate",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteService",
+        "http_method": "DELETE",
+        "function_name": "hudur_deleteService",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getonemanager",
+        "http_method": "POST",
+        "function_name": "getuser_getonemanager",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPresentHrCourses",
+        "http_method": "PUT",
+        "function_name": "getuser_debugPresentHrCourses",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugAcceptRequest",
+        "http_method": "GET",
+        "function_name": "getuser_debugAcceptRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getLeaveCounts",
+        "http_method": "GET",
+        "function_name": "hudur_getLeaveCounts",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteAdminLeaves",
+        "http_method": "DELETE",
+        "function_name": "hudur_deleteAdminLeaves",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/approveAdminLeave",
+        "http_method": "GET",
+        "function_name": "getuser_approveAdminLeave",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/postDynamicServices",
+        "http_method": "POST",
+        "function_name": "hudur_postDynamicServices",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugApproveService",
+        "http_method": "PUT",
+        "function_name": "getuser_debugApproveService",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/notiGet",
+        "http_method": "GET",
+        "function_name": "getuser_notiGet",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getCountofLeaves",
+        "http_method": "GET",
+        "function_name": "hudur_getCountofLeaves",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getServiceReport",
+        "http_method": "GET",
+        "function_name": "getuser_getServiceReport",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetCheckInHistory",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetCheckInHistory",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/updateLocation",
+        "http_method": "GET",
+        "function_name": "getuser_updateLocation",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/deleteAnnouncement",
+        "http_method": "GET",
+        "function_name": "getuser_deleteAnnouncement",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getAdminLeave",
+        "http_method": "GET",
+        "function_name": "getuser_getAdminLeave",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/approveLeaveRequest",
+        "http_method": "PUT",
+        "function_name": "hudur_approveLeaveRequest",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/postemployee",
+        "http_method": "POST",
+        "function_name": "getuser_postemployee",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getUserByName",
+        "http_method": "GET",
+        "function_name": "hudur_getUserByName",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getManagers",
+        "http_method": "GET",
+        "function_name": "hudur_getManagers",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetCourses",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetCourses",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/csvpost",
+        "http_method": "POST",
+        "function_name": "hudur_csvpost",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/putAttachment",
+        "http_method": "PUT",
+        "function_name": "hudur_putAttachment",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetCheckIn",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetCheckIn",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetBenchListManager",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetBenchListManager",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getDelayReports",
+        "http_method": "GET",
+        "function_name": "getuser_getDelayReports",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetAdminLeaves",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetAdminLeaves",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/addSites",
+        "http_method": "POST",
+        "function_name": "getuser_addSites",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/postOuterGeoList",
+        "http_method": "POST",
+        "function_name": "getuser_postOuterGeoList",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostManager",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostManager",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getCompanyDetails",
+        "http_method": "GET",
+        "function_name": "hudur_getCompanyDetails",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetAnnouncements",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetAnnouncements",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteSection",
+        "http_method": "GET",
+        "function_name": "hudur_deleteSection",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetServicesEmployee",
+        "http_method": "GET",
+        "function_name": "getuser_debugGetServicesEmployee",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/get_branches",
+        "http_method": "GET",
+        "function_name": "hudur_get_branches",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugGetOneManager",
+        "http_method": "POST",
+        "function_name": "getuser_debugGetOneManager",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/getOfficeLocation",
+        "http_method": "GET",
+        "function_name": "getuser_getOfficeLocation",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getEmployeeLeaveRequests",
+        "http_method": "GET",
+        "function_name": "hudur_getEmployeeLeaveRequests",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getHR",
+        "http_method": "GET",
+        "function_name": "hudur_getHR",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostAddAnnouncements",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostAddAnnouncements",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteServicesDyna",
+        "http_method": "GET",
+        "function_name": "hudur_deleteServicesDyna",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/postmanager",
+        "http_method": "POST",
+        "function_name": "getuser_postmanager",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/getuser/debugPostAttendanceReport",
+        "http_method": "POST",
+        "function_name": "getuser_debugPostAttendanceReport",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/deleteCourse",
+        "http_method": "GET",
+        "function_name": "hudur_deleteCourse",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/getDynaSer",
+        "http_method": "GET",
+        "function_name": "hudur_getDynaSer",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
+        "route": "/hudur/get_department",
+        "http_method": "GET",
+        "function_name": "hudur_get_department",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
